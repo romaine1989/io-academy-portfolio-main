@@ -54,7 +54,7 @@ p, .techs, .portfolio .links, footer a {
 /***** portfolio section ******/
 .portfolio-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
@@ -62,6 +62,7 @@ p, .techs, .portfolio .links, footer a {
 .portfolio {
 padding: 5rem 0;
 background-color: #F0F6FF;
+border-radius: 15px 15px 0px 0px;
 }
 
 .portfolio h2, .portfolio h3 {
