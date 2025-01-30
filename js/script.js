@@ -24,11 +24,11 @@ fetch('information.json')
             let list = document.createElement('div');
             list.innerHTML = `
                 <div class="portfolio-item">
-                        <img src="img/example2.jpg" alt="amazing-project" width="100%">
+                        <img src="${item.title}" alt="${item.title}" width="100%">
                         <div class="profile-blurb">
                             <h3>${item.title}</h2>
                             <p>
-                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                                ${item.description}
                             </p>
 
                             <div class="techs">
@@ -40,8 +40,8 @@ fetch('information.json')
                         </div>
 
                         <div class="links">
-                            <a href="#">Live Project</a>
-                            <a href="#">Git Repo</a>
+                            <a href="${item.title}">Live Project</a>
+                            <a href="${item.title}">Git Repo</a>
                         </div> 
                     </div>
             `;
