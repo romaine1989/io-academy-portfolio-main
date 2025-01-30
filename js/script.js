@@ -24,7 +24,7 @@ fetch('information.json')
             let list = document.createElement('div');
             list.innerHTML = `
                 <div class="portfolio-item">
-                        <img src="${item.title}" alt="${item.title}" width="100%">
+                        <img src="${item.image}" alt="${item.alt}" width="100%">
                         <div class="profile-blurb">
                             <h3>${item.title}</h2>
                             <p>
