@@ -84,6 +84,10 @@ border-radius: 15px 15px 0px 0px;
     overflow: hidden;
 }
 
+.portfolio-item p {
+    height: 236px;
+}
+
 .portfolio-item .profile-blurb {
     padding: 30px;
 }
@@ -159,4 +163,9 @@ footer a {
     .portfolio-item {
         margin-bottom: 3rem;
     }
+
+    .portfolio-item p {
+        height: auto;
+    }
+    
 }
