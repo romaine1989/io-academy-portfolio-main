@@ -40,8 +40,8 @@ fetch('information.json')
                         </div>
 
                         <div class="links">
-                            <a href="${item.title}">Live Project</a>
-                            <a href="${item.title}">Git Repo</a>
+                            <a href="${item.liveLink}" target="_blank">Live Project</a>
+                            <a href="${item.gitHubLink} target="_blank"">Git Repo</a>
                         </div> 
                     </div>
             `;
