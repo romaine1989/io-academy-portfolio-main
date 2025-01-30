@@ -3,7 +3,7 @@
         {
             "title": "Tea Picker V1",
             "description": "For my tech role application, I created a \"Tea Roulette\" app that randomly selects the next team member responsible for the office tea round. Despite being new to JavaScript, I built an interactive interface that features all the names of people in an office, and selects a chosen one at random upon clicking the button.",
-            "image": "img/example2.jpg",
+            "image": "./img/example2.jpg",
             "alt": "some alt text",
             "liveLink": "https://romaine1989.github.io/teaPicker01/",
             "gitHubLink": "https://github.com/romaine1989/teaPicker"
@@ -11,14 +11,14 @@
         {
             "title": "Tea Picker V2",
             "description": "Building on my initial Tea Roulette app, I enhanced user control by adding dynamic participant management. The upgraded version allows users to create custom tea-maker lists, add new volunteers, and remove those opting out. These improvements transformed a simple randomizer into a flexible, user-friendly office tool.",
-            "image": "project_2.png",
+            "image": "./img/example2.jpg",
             "liveLink": "https://romaine1989.github.io/teaPicker/",
             "gitHubLink": "https://github.com/romaine1989/teaPicker01`"
         },
         {
             "title": "Online CV",
             "description": "I crafted a responsive digital CV utilizing Bootstrap and SCSS, leveraging advanced styling capabilities through nested rules and variables. By combining Bootstrap's component library with custom SCSS modules, I created a polished, mobile-friendly portfolio that demonstrates my growing expertise in modern front-end development.",
-            "image": "project_3.png",
+            "image": "./img/example2.jpg",
             "liveLink": "https://romaine1989.github.io/mycv/",
             "gitHubLink": "https://github.com/romaine1989/mycv"
         }
