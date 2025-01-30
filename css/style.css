@@ -150,4 +150,12 @@ footer a {
     .portfolio {
         padding: 3rem 0;
     }
+
+    .portfolio-row {
+        display: block;
+    }
+
+    .portfolio-item {
+        margin-bottom: 3rem;
+    }
 }
